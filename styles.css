@@ -2,8 +2,6 @@
 {
     width: auto;
     margin: auto auto;
-
-
 }
 
 @media screen and (min-width: 960px) {
@@ -12,15 +10,21 @@
         }
 }
 
-.ascii{
-       float: left;
-           position: relative;
-           left: 50%;
-    }
+.heading {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    text-align: center;
+}
 
-.ascii-content {
-float: left;
-    position: relative;
-    left: -50%;
+@media screen and (min-width: 600px) {
+    .ascii {
+        font-size: 7px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .ascii {
+        font-size: 9px;
+    }
 }
 
