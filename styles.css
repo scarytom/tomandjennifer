@@ -38,11 +38,16 @@ body {
     font-family: 'Dancing Script', cursive;
     font-size: 1.5em;
     margin-left: 1em;
+    margin-top: 1.5em;
 }
 
 .text {
     margin-left: 1em;
     font-size: 1.5em;
+}
+
+.italics {
+    font-style: italic;
 }
 
 @media screen and (min-width: 600px) {
