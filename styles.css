@@ -1,7 +1,17 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
 .main-container
 {
     width: auto;
     margin: auto auto;
+    background-color: #ffffcc;
+    height: 100%;
 }
 
 @media screen and (min-width: 960px) {
@@ -10,10 +20,29 @@
         }
 }
 
-.heading {
+.main-heading-container {
+    margin-bottom: 2em;
+}
+
+.main {
+    margin: auto 0.5em 2em 0.5em;
+}
+
+.main-heading {
     font-family: 'Dancing Script', cursive;
     font-size: 3em;
     text-align: center;
+}
+
+.heading {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    margin-left: 1em;
+}
+
+.text {
+    margin-left: 1em;
+    font-size: 1.5em;
 }
 
 @media screen and (min-width: 600px) {
