@@ -11,7 +11,7 @@ body {
     width: auto;
     margin: auto auto;
     background-color: #ffffcc;
-    height: 100%;
+    min-height: 100%;
 }
 
 @media screen and (min-width: 960px) {
